@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [amit&#039;s testsuite]" parallel="tests">
+  <test thread-count="5" name="amit&#039;s test case2(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="org.testNG.amit.amittestNG">
+        <methods>
+          <include name="someStuff"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- org.testNG.amit.amittestNG -->
+    </classes>
+  </test> <!-- amit's test case2(failed) -->
+  <test thread-count="5" name="amit&#039;s test case1(failed)" parallel="tests">
+    <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="org.testNG.amit.amittestNG">
+        <methods>
+          <include name="someStuff"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- org.testNG.amit.amittestNG -->
+    </classes>
+  </test> <!-- amit's test case1(failed) -->
+</suite> <!-- Failed suite [amit's testsuite] -->
